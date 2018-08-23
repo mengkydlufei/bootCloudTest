@@ -4,6 +4,8 @@ eureka:
       defaultZone: http://localhost:8762/eureka/
   instance:
     hostname: localhost
+  server:
+    enable-self-preservation: false
 
 spring:
   application:
